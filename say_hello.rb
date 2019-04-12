@@ -2,4 +2,6 @@
 
 say_hello("Gabriela")
 
-print "Hello #{say_hello}!"
+def say_hello(name="Ruby Programmer")
+  puts "Hello #{name}!"
+end
